@@ -1,0 +1,18 @@
+name: 2024s1475-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.7=hc5c86c4_0_cpython
+  - numpy=2.0.2=py312h58c1407_0
+  - pandas=2.2.3=py312hf9745cd_1
+  - netcdf4=1.7.2=nompi_py312ha728dd9_100
+  - xarray=2024.11.0=pyhd8ed1ab_0
+  - iris=3.11.0=pyha770c72_0
+  - ncdata=0.1.1=pyhd8ed1ab_0
+  - cftime=1.6.4=py312hc0a28a1_1
+  - requests=2.32.3=pyhd8ed1ab_0
+  - matplotlib=3.9.2=py312h7900ff3_2
+  - cartopy=0.24.0=py312hf9745cd_0
+  - seaborn=0.13.2=hd8ed1ab_2
+  - cmocean=4.0.3=pyhd8ed1ab_0
+  - notebook=7.0.2
