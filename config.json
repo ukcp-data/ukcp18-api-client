@@ -1,0 +1,33 @@
+{
+    "remove_items": ["ensemble_member_id", 
+                     "grid_latitude_bnds", 
+                     "grid_longitude_bnds", 
+                     "time_bnds",
+                     "rotated_latitude_longitude", 
+                     "year", 
+                     "yyyymmddhh",
+                     "ensemble_member"],
+    
+    "squeeze_coords": ["bnds", "ensemble_member"],
+
+    "NUMBER_OF_WC": 13,
+
+    "accum_duration_start": {
+        "1": 23, 
+        "3": 22, 
+        "6": 19},
+
+    "rp_years": [5, 10, 30, 50, 100],
+
+    "RPS": {
+        "1": [19, 24, 32, 36, 42],
+        "3": [29, 35, 44, 49, 57],
+        "6": [35, 42, 53, 59, 67]
+    },
+
+    "BINS": {
+        "1": [2, 4, 7, 10, 14, 18, 24, 30, 40, 55, 70, 90, 110, 135],
+        "3": [2, 6, 10, 15, 20, 30, 40, 60, 80, 110, 140, 175, 215, 265],
+        "6": [2, 7, 13, 19, 28, 40, 55, 80, 115, 160, 210, 260, 320, 390]
+    }
+}
